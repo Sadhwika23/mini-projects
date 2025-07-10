@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Countdown Timer</title>
+  <link rel="stylesheet" href="C:\Users\burad\OneDrive\Documents\NEW\contdown.css">
+</head>
+<body>
+  <div class="timer">
+    <div id="days">00</div>
+    <div id="hours">00</div>
+    <div id="minutes">00</div>
+    <div id="seconds">00</div>
+  </div>
+  <div class="label-row">
+    <div>Days</div>
+    <div>Hours</div>
+    <div>Minutes</div>
+    <div>Seconds</div>
+  </div>
+
+  <div class="controls">
+    <label style="font-size: 1rem; margin-right: 10px;">Custom Your Date:</label>
+    <input type="datetime-local" id="customDate">
+  </div>
+
+  <div class="controls">
+    <button class="start-btn" onclick="startCountdown()">Start</button>
+    <button class="fullscreen-btn" onclick="toggleFullscreen()">Fullscreen (F)</button>
+    <button class="reset-btn" onclick="resetCountdown()">Reset (R)</button>
+  </div>
+
+  <script src="C:\Users\burad\OneDrive\Documents\NEW\countdown.js"></script>
+</body>
+</html>
